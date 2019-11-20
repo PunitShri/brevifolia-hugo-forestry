@@ -5,9 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: Instrumentation
+  path: instrumentation
   label: Heading 1
-  match: "**/*"
 - type: heading
   label: Alert
 - type: directory
