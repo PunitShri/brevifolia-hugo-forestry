@@ -1,0 +1,100 @@
+Link contains answers of following questions:
+
+What is API Documentation?
+Refers to documentation of APIs (Application programming interfaces) that are the building blocks of code used by developers to build applications.
+
+Differences between writing API documentation and technical documentation?
+API documentation adheres to many of the documentation principles, but the documentation scope is different from other types of technical documentation.
+Technical documentation refers to end-user or GUI-based products. API documentation is only about documenting APIs.
+
+What is the baseline for API documentation?
+The standard or baseline for API documentation is a complete, accurate reference manual. Every component in the API, method/function/resource, error message, and other components are documented.
+
+Basic Differences from Technical Documentation
+Audience is different. S/w developers are audience for APIs. Unlike average product users, they do not require complete sentences and generally use fragments.
+
+Sentence fragments are acceptable and desirable too.
+Complete sentences can be avoided.
+For example: A method can be explained in a sentence or two where sentences may not be complete as per technical documentation standards.
+
+Example for DisplayAlert method: 
+API: Displays an alert for read/write access by default.
+TW: The displayAlert method displays an alert for read/write access by default.
+
+
+2. What tools do I need to learn?
+API documentation tools are used to write specially formatted comments in the source code files that are then extracted by the tool and formatted into API reference documentation. There are standlone tools like Doxygen, Java Developer Kit
+
+3. Do I need to be a programmer to succeed at writing API documentation?
+No, but you must have the ability to read code to some extent. You should be to recognize and code the common elements in a programming language such as methods, the parameters that can be specified for a method, the value returned by a method, and how to code error messages for common mistakes, and call those error messages when such a mistake occurs. 
+
+4. How do I break into API documentation?
+Take an existing API and modify. This serves as real example.  Suggested examples are the help for the Microsoft Help Compiler or Oracle’s Java Messenger Service (JMS), both of which are available for free. You might also contact openstack.org and volunteer to write API documentation for an open source project.
+
+Best practice is to study examples of API documentation.
+
+5. Takeaways for Technical Writers new to API documentation?
+API documentation should be very factual and terse. Sentence fragments are acceptable.
+Learn tools that scan specially-formatted comments in the code and generate your documentation from those comments. You also should become fluent with source code controls, which are used extensively by API developers.
+You do not need to be a programmer to succeed at writing API documentation but you do need to be able to recognize basic programming elements such as methods, their parameters and datatypes for the parameters, their return values, and the error messages returned by a method.
+If you are new to API documentation, study examples of API documentation to get a feel of the writing style.
+Writers producing API documentation are exposed to a variety of development and authoring tools, increasing their value and skillset in the technical communication industry.
+
+Best Practices for API Documentation
+Follow a Standard Template or Outline for Reference Pages
+Use a Terse, Factual Writing Style. Sentence fragments are desirable. Avoid adjectives and  adverbs. 
+Provide Complete Information about Each API Component
+Document all Error Messages alphabetically. Specify the level of the message and provide workarounds/solutions. 
+Provide Working Code Snippets for Each Method
+Provide Flowcharts showing Common Use Cases
+Provide Sample Programs Demonstrating Common Use Cases
+Provide Getting Started Guide
+Provide Performance and Tuning Information
+Provide a Contact Person for your API
+
+
+Template Example (Name all sections even if one doesn't have elements, such as no return value or has no related methods. Mention None or Not applicable instead. This lets developers know you did not forget to include the section)
+
+Method_Name
+<A brief description>
+Syntax
+<Display actual method call used in the code>
+Description
+<Detailed information about the method> (Writers need to know how to call a method)
+Parameters
+<List all parameters in the same order as they appear in syntax> (Use a list or table)
+Return Value
+<Value returned by method. Describe the return value>
+Examples
+<Short code snippet with explanation to show how to use the method>
+Errors
+<list all errors that can be returned while using the method>	
+Notes
+<any suggested good to know information>
+See Also
+<Cross-reference to related methods>
+Sample API Reference Page
+<Sample page>
+
+
+Factual Writing Style
+Like Technical Writing, use the following:
+-Write clearly in plain English
+-Be factual
+-Be consistent with terminology
+
+Differences in API documentation
+-Write tersely: no unwanted words to complete sentences
+-Sentence fragments are fine
+-Avoid Adjectives and adverbs
+-Do not use local jargons. Use industry-specific 
+-Accept as is the Method names that appear long as they are formed by concatenating many words. 
+
+
+Wireframes and prototyping tools
+References: https://zapier.com/blog/best-wireframe-tools/
+Sketch: Wireframe tool works only on Mac
+Axure: wireframe, flow chart and interactive design
+Fluid UI: Mobile prototype design tool
+Mockplus: Recommended for beginners into UX field
+
