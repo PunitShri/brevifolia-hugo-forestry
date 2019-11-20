@@ -1,5 +1,5 @@
 Instrumentation is the base of ITOPs.
-Core Concepts
+Core Concepts	
 Agent
 An Agent is an executable application that runs on managed Windows and Linux devices.
 An Agent manages devices such as servers, desktop and laptops.
