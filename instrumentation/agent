@@ -1,0 +1,6 @@
+Agent and Gateway Connectivity
+Agents and Gateways need outbound network connectivity to the OpsRamp Cloud. See options below.
+Inbound connectivity requirements: OpsRamp Gateway needs an inbound port 3128 opened for Proxy connections from the agents.
+The Agent and Gateway need DNS access to resolve *.api.opsramp.com If your organization has firewall policies to limit outbound access to specific IP addresses, then the Agent and Gateway must have access to the OpsRamp IP addresses below.
+Agents works with any standard HTTP Proxy. OpsRamp recommends Squid: http://www.squid-cache.org/
+Agent and Gateway Connectivity Options
