@@ -1,0 +1,9 @@
+When to Deploy Agent and Gateway
+Manage servers only	Agent is required on each managed server.
+There are three options to configure Agents to connect the OpsRamp Cloud. See options above.
+Manage network and storage devices	Gateways are required to manage network and storage devices.
+Each Gateway must connect directly to the OpsRamp Cloud. See options above.
+See Gateway sizing guidelines.
+Manage servers, network and storage devices	Agent and Gateway are both required.
+There are three options to configure Agents and Gateways to connect to the OpsRamp Cloud. See options above.
+See Gateway sizing guidelines.
