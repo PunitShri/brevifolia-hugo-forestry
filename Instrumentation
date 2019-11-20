@@ -1,0 +1,18 @@
+Instrumentation is the base of ITOPs.
+Core Concepts
+Agent
+An Agent is an executable application that runs on managed Windows and Linux devices.
+An Agent manages devices such as servers, desktop and laptops.
+Master Agent
+
+A Master Agent supports additional monitoring, it functions as an SNMP trap listener within the environment, also performs scheduled Ping, URL, and DNS monitoring.
+Any existing Agent can be configured as Master Agent.
+A client can have multiple master Agents within the network.
+Gateway
+A Gateway is a virtual appliance that manages devices such as:
+#Servers
+#Switches
+ ##Routers
+ ##Firewalls
+#Storage
+#Virtual Environment
