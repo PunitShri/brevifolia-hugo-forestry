@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Alert
 - type: directory
   path: ''
   label: Agent
@@ -12,8 +14,13 @@ sections:
   templates:
   - blog
   - about-page
-- type: heading
-  label: Alert
+- type: directory
+  path: ''
+  label: Gate
+  create: all
+  match: "**/*"
+  templates:
+  - blog
 - type: heading
   label: Getting Started
 - type: heading
