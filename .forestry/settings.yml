@@ -8,14 +8,6 @@ sections:
   label: Alert
 - type: directory
   path: ''
-  label: Agent
-  create: all
-  match: "**/*"
-  templates:
-  - blog
-  - about-page
-- type: directory
-  path: ''
   label: Gate
   create: all
   match: "**/*"
