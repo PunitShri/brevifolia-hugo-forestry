@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: Agent
+  path: Instrumentation
   label: Heading 1
   match: "**/*"
 - type: heading
